@@ -5,14 +5,14 @@ body {
 
 body {
 
-    background-image: url("images/2YWP.jpg");
+    /*background-image: url("images/2YWP.jpg");*/
     /*background-repeat: repeat-x;*/
     /*background-position: center;*/
 }
 
 /* navbar */
 .navbar-default {
-    background-color: ##ffff00;
+    background-color: #ffff00;
     border-color: #E7E7E7;
     padding-top: 3rem;
     padding-bottom: 3rem;
