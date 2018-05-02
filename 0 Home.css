@@ -25,3 +25,6 @@ body {
 .navbar-default .nav-item:hover .nav-link {
     color: #ffffff;
 }
+.navbar{
+    background-image: none;
+}
