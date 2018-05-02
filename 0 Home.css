@@ -18,9 +18,14 @@ body {
     background-color: #CC3333;
 }
 */
+/*
 .navbar-default {
     background-color: #ff0000;
     border-color: #ff0000;
 }
-
+*/
+.navbar-default{
+    background-color:red;
+    border-color: green;
+}
 
