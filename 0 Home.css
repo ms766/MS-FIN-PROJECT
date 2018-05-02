@@ -29,7 +29,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-    height: 25rem;
+    height: 50rem;
     /*Car bG color */
     background-color: #ffff00;
 }
@@ -38,7 +38,7 @@ body {
     top: 0;
     left: 0;
     min-width: 50%;
-    height: 25rem;
+    height: 50rem;
 }
 
 
