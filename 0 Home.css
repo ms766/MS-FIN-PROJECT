@@ -34,7 +34,7 @@ body {
     background-color: #ffff00;
 }
 .carousel-item > img {
-    position: absolute;
+    position: bottom;
     top: 0;
     left: 0;
     min-width: 50%;
