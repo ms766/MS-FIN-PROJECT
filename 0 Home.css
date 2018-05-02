@@ -9,3 +9,9 @@ body {
     background-repeat: repeat-x;
     background-position: center;
 }
+
+/* navbar */
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
