@@ -6,7 +6,7 @@ body {
 body {
 
     background-image: url("images/0PA.jpg");
-    background-repeat: repeat-x;
+    /*background-repeat: repeat-x;*/
     background-position: center;
 }
 
