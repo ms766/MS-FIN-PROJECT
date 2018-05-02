@@ -6,4 +6,5 @@ body {
 body {
 
     background-image: url("images/0PA.jpg");
+    background-repeat: repeat-x;
 }
