@@ -1,12 +1,18 @@
-html,
-body {
-    height: 100%;
-}
-
 body {
     background-color: #ffff00;
 
 }
+
+//* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -95,5 +101,3 @@ p {
     margin-right: 50px;
     margin-left: 50px;
 }
-
-
