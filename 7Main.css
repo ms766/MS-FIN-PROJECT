@@ -1,4 +1,4 @@
-header.backgroungpicframe .site-heading{padding:200px 0 90px;color: gold
+header.backgroungpicframe .site-heading{padding:200px 0 80px;color: gold
 }
 
 
@@ -14,9 +14,16 @@ header.backgroungpicframe .site-heading{padding:200px 0 90px;color: gold
 body {
     background-image: url("paper.gif");
     background-repeat: repeat-x;
-    background-color: gold;
+    background-color: black;
 }
 
 header.backgroungpicframe .page-heading h1,header.backgroungpicframe .site-heading h1{font-size:75px;margin-top:0
 
 header.backgroungpicframe .page-heading h3,header.backgroungpicframe .site-heading h1{font-size:50px;margin-top:0
+
+.navbar-custom {
+    background-color: #ff5500;
+}
+
+
+
