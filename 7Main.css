@@ -1,7 +1,22 @@
-body{font-size:20px;color:#ffd700;font-family:Lora,'Times New Roman',"Times New Roman"}
+header.backgroungpicframe .site-heading{padding:200px 0 90px;color: gold
+}
 
-/* p tag height & margin */
-p{line-height:1.5;
-    margin:30px 0}p
 
-                  padding:10px;text-align:center;border-bottom-right-radius:5px;border-bottom-left-radius:5px}
+.navbar-nav > li{
+    padding-left:100px;
+    padding-right:100px;
+}
+
+
+.navbar-nav > li{font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}
+
+
+body {
+    background-image: url("paper.gif");
+    background-repeat: repeat-x;
+    background-color: gold;
+}
+
+header.backgroungpicframe .page-heading h1,header.backgroungpicframe .site-heading h1{font-size:75px;margin-top:0
+
+header.backgroungpicframe .page-heading h3,header.backgroungpicframe .site-heading h1{font-size:50px;margin-top:0
