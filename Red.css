@@ -1,4 +1,4 @@
-header.backgroungpicframe .site-heading{padding:200px 0 0px;color: gold;}
+
 
 
 .navbar-nav > li{
@@ -15,6 +15,8 @@ header.backgroungpicframe .site-heading{padding:200px 0 0px;color: gold;}
 
 body {background-color: red;}
 
+
+
 header.backgroungpicframe .page-heading h10,header.backgroungpicframe .site-heading h10{font-size:44px;margin-top:0;color:black;text-shadow: -1px 0 gold, 0 1px gold, 1px 0 gold, 0 -1px gold;}
 
 header.backgroungpicframe .page-heading h13,header.backgroungpicframe .site-heading h13{font-size:19px;margin-top:0; color:black;text-shadow: -1px 0 gold, 0 1px gold, 1px 0 gold, 0 -1px gold;}
@@ -26,28 +28,6 @@ div.background {
   border: 0px solid black;
 }
 
-div.transbox {
-  margin: 0px;
-  background-color: #ffffff;
-  border: 0px gold;
-  opacity: 0.9;
-  filter: alpha(opacity=90); /* For IE8 and earlier */
-}
 
-div.transbox p {
-  padding-top: 0px;
-  margin: 0%;
-  font-weight: bold;
-  color: #gold;
-}
-
-.img-hor {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
-}
 
 
