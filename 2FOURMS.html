@@ -6,8 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	<link rel="stylesheet" href="7Main.css">
+	<link rel="stylesheet" href="11Form.css">
 	<link rel="icon" href="/images/favicon.ico">
+
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 	<title>GRAB & DROP&#x26A1;</title>
 	<style type="text/css">
@@ -41,61 +44,105 @@
 	</div>
 </nav>
 
-
-
-
-
-<header class="backgroungpicframe" style="background-image: url('images/0PA.jpg')">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-6 col-xs-6 mx-auto">
-				<div class="site-heading">
-					<div class="background"> <!--Add in-->
-						<div class="transbox"><!--Add in-->
-							<h10><p class="text-center">On Demand Delivery </p></h10><hr><p class="text-center">
-								<h13>Get Anything Delivered Anywhere & Pay What the Market Dictates is Fair</p></h13>
-						</div><!--Add in-->
-					</div>
-				</div>
-			</div>
-		</div>
-</header>
-
-<a href="4REQ.html" class="btn btn-success btn-lg btn-block">Request a delivery &#128077; </a>
-<hr>
-<div class="container">
-	<p class="text-center">
-
-		<img src="images/muti-1.gif" class="img-hor" height="25" width="25">
-		<img src="images/Santa.gif" class="img-hor" height="35" width="35">
-		<img src="images/MP1.gif" height="40" width="40">
-
-		<img src="images/muti-1.gif" class="img-hor" height="60" width="60">
-		<img src="images/Santa.gif" class="img-hor" height="60" width="60">
-		<img src="images/MP1.gif" height="60" width="60">
-		<!-- main-->
-		<img src="images/muti-1.gif" class="img-hor" height="75" width="75">
-		<img src="images/Santa.gif" class="img-hor" height="75" width="75">
-		<img src="images/MP1.gif" height="75" width="75">
-		<img src="images/MP1.gif" class="img-hor" height="75" width="75">
-		<img src="images/Santa.gif" height="75" width="75">
-		<img src="images/muti-1.gif" height="75" width="75">
-		<!-- main-->
-		<img src="images/MP1.gif" class="img-hor" height="60" width="60">
-		<img src="images/Santa.gif" height="60" width="60">
-		<img src="images/muti-1.gif" height="60" width="60">
-
-		<img src="images/MP1.gif" class="img-hor" height="40" width="40">
-		<img src="images/Santa.gif" height="35" width="35">
-		<img src="images/muti-1.gif" height="25" width="25">
-
-	</p>
-
+div class="container">
+<div class="row">
+    <div class="col-md-5">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-comment"></span> Chat
+                <div class="btn-group pull-right">
+                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </button>
+                    <ul class="dropdown-menu slidedown">
+                        <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-refresh">
+                            </span>Refresh</a></li>
+                        <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-ok-sign">
+                            </span>Available</a></li>
+                        <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-remove">
+                            </span>Busy</a></li>
+                        <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-time"></span>
+                            Away</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.jquery2dotnet.com"><span class="glyphicon glyphicon-off"></span>
+                            Sign Out</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="panel-body">
+                <ul class="chat">
+                    <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+                        </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+                                <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                dolor, quis ullamcorper ligula sodales.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="right clearfix"><span class="chat-img pull-right">
+                            <img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+                        </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+                                <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                dolor, quis ullamcorper ligula sodales.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+                        </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+                                <span class="glyphicon glyphicon-time"></span>14 mins ago</small>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                dolor, quis ullamcorper ligula sodales.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="right clearfix"><span class="chat-img pull-right">
+                            <img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+                        </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>15 mins ago</small>
+                                <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                dolor, quis ullamcorper ligula sodales.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel-footer">
+                <div class="input-group">
+                    <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                    <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" id="btn-chat">
+                                Send</button>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<a href="5CAN.html" class="btn btn-danger btn-lg btn-block">Cancel a delivery &#128078;</a>
-<hr>
-<p class="text-center">Copyright &copy; GRAB & DROP &#x26A1; 2018</p>
+</div>
+
 
 
 
