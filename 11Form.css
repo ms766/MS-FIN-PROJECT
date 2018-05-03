@@ -1,0 +1,51 @@
+header.backgroungpicframe .site-heading{padding:310px 0 2px;color: gold;}
+
+
+.navbar-nav > li{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:0px;
+    padding-bottom:0px;}
+
+
+
+.navbar-nav > li{font-size:20px;color:#212529;font-family:Lora,'Times New Roman',serif}
+
+
+body {background-color: black;}
+
+header.backgroungpicframe .page-heading h10,header.backgroungpicframe .site-heading h10{font-size:44px;margin-top:0;color:gold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+header.backgroungpicframe .page-heading h13,header.backgroungpicframe .site-heading h13{font-size:28px;margin-top:0; color:gold;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+/*.navbar-custom {background-color: #ff5500;}*/
+
+div.background {
+    border: 0px solid black;
+}
+
+div.transbox {
+    margin: 0px;
+    background-color: #ffffff;
+    border: 0px gold;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    padding-top: 0px;
+    margin: 0%;
+    font-weight: bold;
+    color: #gold;
+}
+
+.img-hor {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
